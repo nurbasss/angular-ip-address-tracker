@@ -1,0 +1,23 @@
+.map-container {
+    width: 100vw;
+    height: 65%;  
+    z-index: 15;  
+    margin-top: -5rem;
+    position: absolute;
+    left: 0;
+  }
+  
+  .map-frame {
+    border: 2px solid hsl(0, 0%, 59%);
+    height: 100%;
+  }
+  
+  #map {
+    height: 100%;
+  }
+
+  @media (max-width: 550px){
+    .map-container{
+      margin-top: -182px;
+    }
+}

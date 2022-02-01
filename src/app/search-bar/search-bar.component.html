@@ -1,0 +1,12 @@
+
+<div class="search_section">
+    <input type="text" 
+        class="search_section__input" 
+        placeholder="Search for any IP address or domain"
+        #ipAddress
+        (keydown.enter)="onInputSubmitted(ipAddress.value)">
+    <button class="search_section__btn"
+        (click)="onInputSubmitted(ipAddress.value)">
+        <img src="../../assets/images/icon-arrow.svg" alt="">
+    </button>
+</div>
