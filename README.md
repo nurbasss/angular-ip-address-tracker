@@ -1,7 +1,10 @@
 # About Project
 Ip-address-tracker demo https://reverent-saha-3fe1d4.netlify.app/
+
 This app helps to find location and all related info just by typing ip-address. It was made with Angular, also I used leaflet to generate map and make some manipulations on it.
+
 Furthermore, I used IP Geolocation API.
+
 So, by the way I learned how to work with API and how to create map in Angular. 
 
 # IpAddressTracker
